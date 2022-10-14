@@ -43,3 +43,13 @@ mv 333.txt 444.json 4
 
 chmod ugo+x script.txt  
 ./script.txt
+
+
+upd:
+
+history - история запросов
+tail -F qq.txt - отслеживаем изменение на маке
+tail -F qq.txt | grep "qwe" - фильтр по паттерну
+tail -F qq.txt | grep --line-buffered slovo | cat >> test_1.txt - вывод логов по патерну в новый файл 
+
+tail -F anything_1.txt | grep --line-buffered 17 | cat >> texample2.txt - из тг
